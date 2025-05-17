@@ -69,9 +69,9 @@ class App:
 		for col, text in enumerate(headers):
 			ttk.Label(self.scrollable_frame, text=text, padding=3).grid(row=0, column=col)
 
-		self.add_entry_row([15, 1, 0, 0, 0, 1.5, 0])
-		self.add_entry_row([4, -0.5, 0.866, 0, 0, -1.0, 0.5])
-		self.add_entry_row([4, -0.5, -0.866, 0, 0, -0.5, -0.5])
+		self.add_entry_row([1, 1, 0, 0, 0, 0.5, 0])
+		self.add_entry_row([1, -0.5, 0.866, 0, -0.433, -0.25, 0])
+		self.add_entry_row([1, -0.5, -0.866, 0, 0.433, -0.25, 0])
 
 		btn_frame = ttk.Frame(left_frame)
 		btn_frame.pack(pady=5)
